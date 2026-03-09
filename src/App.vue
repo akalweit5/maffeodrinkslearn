@@ -1,20 +1,6 @@
-<script setup>
-</script>
-
 <template>
-  <div class="app">
+  <div>
+    <p>App is working</p>
     <router-view />
   </div>
 </template>
-
-<style>
-body {
-  margin: 0;
-  font-family: system-ui, Arial, sans-serif;
-  background: #f5f5f5;
-}
-
-.app {
-  min-height: 100vh;
-}
-</style>
